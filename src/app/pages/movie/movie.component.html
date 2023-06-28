@@ -1,1 +1,8 @@
-<p>movie works!</p>
+<h2>Movie Details</h2>
+<div *ngIf="movie">
+  <h3>{{ movie.title }}</h3>
+  <p>Year: {{ movie.release_date| date }}</p>
+  <p>Director: {{ movie.director }}</p>
+  <p>Genre: {{ movie.genre }}</p>
+  <p>Description: {{ movie.description }}</p>
+</div>

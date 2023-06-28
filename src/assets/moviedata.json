@@ -8202,6 +8202,7 @@
                 "Comedy",
                 "Fantasy"
             ],
+            "image_url": "https://image.tmdb.org/t/p/original/t1mAIRIZZkLyn8eh7g2NEIMPqNS.jpg",
             "plot": "The fifth installment of the blockbuster franchise that follows the adventures of Captain Jack Sparrow.",
             "rank": 384,
             "actors": ["Johnny Depp"]
@@ -19520,6 +19521,7 @@
                 "Fantasy",
                 "Sci-Fi"
             ],
+            "image_url": "https://www.filmibeat.com/img/popcorn/movie_posters/avatar2-20200724094747-15106.jpg",
             "plot": "A sequel to the 2009 global phenomenon.",
             "rank": 909,
             "actors": [
@@ -27753,6 +27755,7 @@
                 "Fantasy",
                 "Sci-Fi"
             ],
+            "image_url": "https://i2.wp.com/urbanasian.com/wp-content/uploads/2018/08/JUSTICE-LEAGUE.jpg?fit=2000%2C3000&ssl=1",
             "plot": "The world's greatest heroes are assembled to form the Justice League, to combat a threat beyond each individual's capabilities.",
             "rank": 1295
         }
@@ -101575,6 +101578,7 @@
         "info": {
             "directors": ["Patrick Lussier"],
             "genres": ["Horror"],
+            "image_url": "https://image.tmdb.org/t/p/original/4qDtn4RNIEY4OgitIxi3P1CtthO.jpg",
             "plot": "The plot is unknown at this time.",
             "rank": 4896
         }

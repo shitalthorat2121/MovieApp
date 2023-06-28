@@ -1,1 +1,11 @@
-<p>home works!</p>
+
+<form (ngSubmit)="searchMovies()">
+    <input type="text" [(ngModel)]="searchText" name="searchText" placeholder="Enter a movie title">
+    <button type="submit">Search</button>
+  </form>
+
+<h2>Top 4 Movies</h2>
+<div *ngFor="let movie of movies">
+    <img class="images" src="{{movie.info.image_url}}">
+    <h3>{{ movie.title }} ({{movie.year}})</h3>
+</div>

@@ -1,1 +1,10 @@
-<p>search works!</p>
+<!-- <h2>Search Movies</h2> -->
+
+
+<div *ngFor="let movie of movies; let i = index">
+  <h3>{{ movie.title }}</h3>
+  <p>Year: {{ movie.info.release_date | date }}</p>
+  <p>Director: {{ movie.info.directors }}</p>
+  <p>Genre: {{ movie.info.genres }}</p>
+  <a [routerLink]="['/movie', movie.info.rank]" [queryParams]="{ searchText: searchText }">View Details</a>
+</div>
